@@ -21,10 +21,10 @@ def fetch_tw(ids,output_file):
             empty_data = empty_data.append(tweet_elem, ignore_index = True)
     empty_data.to_csv(output_file, mode="a")
 
-consumer_key = "DgenSt0OxyaCcMuuJyMCdkJGd"
-consumer_secret = "o1lDfV4AG0tWufIHXGtjY6bNSuAdrSL9hJs4onZRDvEKNMS9t8"
-access_token = "1111593376804028416-yhGKowC8Xpd8HNUDNeS7fjjKsZyreT"
-access_token_secret = "bfJX8z1PrIcsui8W5CuUDBB48ii3pcA9TRKSMw4sadCdn"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret) 
 auth.set_access_token(access_token, access_token_secret)
